@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': '', 'tags': '', 'url': 'About.html'}, {'title': 'USB', 'text': '', 'tags': '', 'url': 'USB.html'}]};
+var tipuesearch = {"pages": [{'title': 'About', 'text': 'hello程式: \n 原始碼: \n void main() {  print("哈囉!");  } \n \n for程式: \n 原始碼: int i ; int sum; main(){ sum=0; for(i=1;i<10;i++){ sum+=i; print("$sum"); } print(\'sum=$sum\'); } fun1(){ } \n \n', 'tags': '', 'url': 'About.html'}, {'title': 'USB', 'text': '', 'tags': '', 'url': 'USB.html'}]};
