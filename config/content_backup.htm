@@ -235,17 +235,17 @@ document.getElementById("iframe").height = 600 ;
 <h1>w17</h1>
 <script>
 function getDart(dirname){
-    source = "https://dartpad.github.io/embed-dart.html?gh_owner=s40523108&gh_repo=cp2019&gh_path=new/" + dirname + "&theme=dark";
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=s40523124&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
     document.getElementById("iframe").src = source ;
 }
 
 function getHtmlDart(dirname){
-    source = "https://dartpad.github.io/embed-html.html?gh_owner=s40523108&gh_repo=cp2019&gh_path=new/" + dirname + "&theme=dark";
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=s40523124&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
 document.getElementById("iframe").src = source ;
 }
 
 function getFlutter(dirname){
-    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=s40523108&gh_repo=cp2019&gh_path=new/" + dirname + "&theme=dark";
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=s40523124&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
 document.getElementById("iframe").src = source ;
 }
 
@@ -255,7 +255,7 @@ document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
 }
 
 function original(){
-document.getElementById("iframe").width = 900 ;
+document.getElementById("iframe").width = 800 ;
 document.getElementById("iframe").height = 600 ;
 }
 </script>
@@ -267,3 +267,5 @@ document.getElementById("iframe").height = 600 ;
 <h4></h4>
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
 <p><br/><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=mdecourse&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/mass_spring_damping&amp;theme=dark" width="800"></iframe></p>
+<p>請輸入所要轉換的重量<br/>以數字加上 kg 或 lb:<br/><br/><input id="temp" max="30" min="1" type="text" value="20kg"/> <input id="submit" type="button" value="換算"/><br/> <br/>轉換結果:<br/><br/><label id="output"></label></p>
+<p></p>
