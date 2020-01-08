@@ -27,9 +27,15 @@
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180902120523.14"><vh>計算機程式課程說明</vh>
 <v t="leo.20180902120523.15"><vh>計算機程式課程說明</vh></v>
-<v t="leo.20200108221652.1"><vh>期中前</vh></v>
-<v t="leo.20200109015117.1"><vh>期中後</vh></v>
-<v t="leo.20200109015622.1"><vh>hello</vh></v>
+</v>
+<v t="leo.20200109022142.1"><vh>期中前</vh>
+<v t="leo.20200109022142.3"><vh>期中前</vh></v>
+</v>
+<v t="leo.20200109022241.1"><vh>期中後</vh>
+<v t="leo.20200109022241.2"><vh>期中後</vh></v>
+</v>
+<v t="leo.20200109022315.1"><vh>hello</vh>
+<v t="leo.20200109022315.2"><vh>hello</vh></v>
 </v>
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
@@ -50,15 +56,15 @@
 <t tx="leo.20180902120523.1"></t>
 <t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
 
-###CP2019 40523108
+CP2019 40523108
 
-###王信為
+王信為
 
 &lt;small&gt;
 Created by [s40523108](https://s40523108.github.io/cp2019/content/index.html)
 &lt;/small&gt;
 
-[CMSimfly 網誌](./../blog/index.html)
+
 
 
 </t>
@@ -99,7 +105,7 @@ Created by [s40523108](https://s40523108.github.io/cp2019/content/index.html)
 </t>
 <t tx="leo.20180902120523.15"># 計算機程式課程說明
 1.利用 Dartpad 學習基本 Dart 語法與 Flutter 應用.
-2.在 Dartpad 中導入 HTML 與 CSS, 利用 Dart 結合     
+2.在 Dartpad 中導入 HTML 與 CSS, 利用 Dart 結合
     HTML5 Canvas 繪圖
 3.導入 Dart SDK, 在 SciTE 編輯器中執行Dart 程式
 4.利用 Dart SDK 中的 dart2js 將 Dart HTML 程式轉  
@@ -330,17 +336,50 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200108221652.1">#期中前
+<t tx="leo.20200109022142.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200109022142.3">#期中前
 1.建立自己的github倉儲與proxy網路的環境
 2.認識github
 3.學習基本的 Python 指令
 4.使用cmsimde網站編輯自己的網站
 5.透過影片錄製，學習口語文字表達</t>
-<t tx="leo.20200109015117.1">#期中後
+<t tx="leo.20200109022241.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200109022241.2">#期中後
 1.設定SSH keys，學習如何用gitextension及putty
 2.使用SSH，用gitextension用中文註解的方式推送至倉儲
 3.學習 Dart, 並利用 Gist 將 Dartpad 嵌入
 4.利用 dart2js 將 Dart 程式轉為 Javascript 後,，直接在網頁中執行</t>
-<t tx="leo.20200109015622.1">&lt;p&gt;&lt;iframe width="800" height="600" src="https://dartpad.dev/embed-inline.html?id=98715172dc3f22bf796622ff9aae07ff&amp;amp;verticalRatio=60"&gt;&lt;/iframe&gt;&lt;/p&gt;</t>
+<t tx="leo.20200109022315.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200109022315.2">&lt;p&gt;&lt;iframe width="800" height="600" src="https://dartpad.dev/embed-inline.html?id=98715172dc3f22bf796622ff9aae07ff&amp;amp;verticalRatio=60"&gt;&lt;/iframe&gt;&lt;/p&gt;</t>
 </tnodes>
 </leo_file>
